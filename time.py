@@ -1,0 +1,21 @@
+import time
+
+print("Welcome to the TURDOIDE[Portal] Setup.")
+print("Copyleft 2016 TURDOIDE Systems. Link: twitter.com/turdoide\n")
+time.sleep(3)
+print("The following new files will be added:\n\ttPortal\ttRun\n\ttXframe")
+x=input("Additional 434MB disk space will be used.\nAre you sure to continue?(Y/n):")
+print("Preparing logs.."); print("Done."); time.sleep(1)
+print("Processing setup files..."); time.sleep(2)
+print("Listing out files...")
+print("Copying files..."); time.sleep(5)
+print("Done."); time.sleep(1)
+print("Installing to the system..."); time.sleep(7)
+print("Checking installation..."); time.sleep(3)
+print("OK."); time.sleep(1)
+print("Completely removing /var/tPortalTemp"); time.sleep(2)
+print("Giving 'apt-get autoremove' a shot..."); time.sleep(3)
+print("Checking up icons in /usr/share/icons/...")
+print("Processing shortcuts/triggers for 'tPortal'"); time.sleep(2)
+print("tPortal successfully installed in 47 seconds.\n Enjoy.")
+
