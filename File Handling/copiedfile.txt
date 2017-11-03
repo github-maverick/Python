@@ -1,3 +1,0 @@
-This is my appending text to my testfile.txt.
-
-This is my appending text to my testfile.txt.
