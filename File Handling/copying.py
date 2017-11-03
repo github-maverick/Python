@@ -1,0 +1,6 @@
+ufn=input("Enter your filename (with extension):")
+file1=open(ufn, "r")
+file2=open("copiedfile.txt", "w")
+file2.write(file1.read())
+file1.close()
+file2.close()
