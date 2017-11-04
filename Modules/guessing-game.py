@@ -1,12 +1,10 @@
 import random
-print("Welcome to The Guessing Game.\n Guess a number between 0 to 100. Let the Computer find it.")
-r=[]
-for i in range(0,101):
-	r.append(i)
+r=[x for x in range(1,101)]
+print("Welcome to The Guessing Game.\nGuess a number between 0 to 100.\nLet the Computer find it.\n")
 while True:
 	guess=random.randint(r[0],r[-1])
 	print("Computer's guess is %d"%guess)
-	x=input("Is Computer's Guess higher or lower or correct? ")
+	x=input("\nIs Computer's Guess higher or lower or correct? ")
 	if x=="lower":
 		counter=r[0]
 		while True:
@@ -21,9 +19,8 @@ while True:
 				break
 			r.remove(counter)
 			counter-=1
-
+	elif x=="correct":
+		print("\nComputer: I love wining the game.")
+		break
 	else:
-		print("Computer: I love wining the game.")
-		playagain=input("Do you want to play again? ")
-		if playagain=="no":
-			break
+		print("\nI'm sorry I didn't get that.")
