@@ -9,6 +9,6 @@ def square(x,y):
 		my_turtle.right(90)
 	my_turtle.right(y)
 
-for q in range(300):
-	square(250,11)
+for q in range(150):
+	square(150,11)
 
