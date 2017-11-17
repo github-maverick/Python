@@ -8,4 +8,3 @@ for x in range(n):
 	m.forward(length)
 	m.left(angle)
 time.sleep(2)
-
